@@ -134,7 +134,7 @@ body {
 }
 
 #hero{
-  background-image: url("img/products/hero4.png");
+  background-image: url("img/products/hero2.jpg");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -888,6 +888,27 @@ footer .follow i:hover,footer .follow a:hover{
   font-size: 13px;
 }
 
+
+#qrcode {
+ 
+  padding-top: 10px;
+  margin-left: 610px;
+
+}
+
+#kartu p{
+  font-weight: 700;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 50px;
+}
+
+#zonk p{
+  margin-top: 400px;
+  margin-bottom: 300px;
+  text-align: center;
+}
+
 @media (max-width:799px){
   .section-p1{
     padding: 40px 40px;
@@ -979,6 +1000,10 @@ footer .follow i:hover,footer .follow a:hover{
 
   #newsletter .form{
     width: 70%;
+  }
+  #qrcode {
+    padding-top: 10px;
+    margin-left: 250px;
   }
 }
 
@@ -1109,5 +1134,21 @@ footer .follow i:hover,footer .follow a:hover{
     width: 100%;
     padding: 20px;
   }
+  
+  #qrcode {
+    margin-left: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+  }
+  
+  #kartu p{
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+  }
+
 }
+
 

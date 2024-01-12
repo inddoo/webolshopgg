@@ -36,20 +36,8 @@
 
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
-            <img src="img/items/f7.jpg" width="100%" id="MainImg" alt="">
+            <img src="img/items/baju5.jpg" width="100%" id="MainImg" alt="">
             <div class="small-img-group">
-                <div class="small-img-col">
-                    <img src="img/items/f7.jpg" width="100%" class="small-img" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="img/items/f5.jpg" width="100%" class="small-img" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="img/items/f6.jpg" width="100%" class="small-img" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="img/items/f8.jpg" width="100%" class="small-img" alt="">
-                </div>
             </div>
         </div>
 
@@ -66,7 +54,7 @@
                 <option>S</option>
             </select>
             <input type="number" value="1">
-            <button class="normal">add to cart</button>
+            <button id="addToCartBtn" class="normal">add to cart</button>
             <h4>product detail</h4>
             <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam fuga eius ullam adipisci! Dolorum
                 perferendis assumenda nobis error, unde iure.<span>
@@ -78,8 +66,8 @@
         <p>summer collectin new morden design</p>
         <div class="pro-container">
             <div class="pro" onclick="window.location.href='sproduct9.html';">
-                <img src="img/items/n1.jpg" alt="">
-                <div class="des">
+                <img src="img/items/baju12.jpg" alt="">
+                <div class=" des">
                     <span>adiddas</span>
                     <h5>cartoon astronaut T-shirt</h5>
                     <div class="star">
@@ -94,7 +82,7 @@
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro" onclick="window.location.href='sproduct10.html';">
-                <img src="img/items/n2.jpg" alt="">
+                <img src="img/items/baju11.jpg" alt="">
                 <div class="des">
                     <span>adiddas</span>
                     <h5>cartoon astronaut T-shirt</h5>
@@ -110,7 +98,7 @@
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro" onclick="window.location.href='sproduct11.html';">
-                <img src="img/items/n3.jpg" alt="">
+                <img src="img/items/baju9.jpg" alt="">
                 <div class="des">
                     <span>adiddas</span>
                     <h5>cartoon astronaut T-shirt</h5>
@@ -126,7 +114,7 @@
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro" onclick="window.location.href='sproduct12.html';">
-                <img src="img/items/n4.jpg" alt="">
+                <img src="img/items/baju8.jpg" alt="">
                 <div class="des">
                     <span>adiddas</span>
                     <h5>cartoon astronaut T-shirt</h5>
@@ -200,6 +188,19 @@
             <img src="img/pay/pay.png" alt="">
         </div>
     </footer>
+
+    <script>
+        // Fungsi untuk menangani tindakan tambah ke keranjang
+        function addToCart() {
+            // Lakukan tindakan yang diinginkan saat tombol "Add to Cart" ditekan
+            alert('Product added to cart!');
+            // Anda dapat menambahkan logika lain sesuai kebutuhan
+        }
+
+        // Tambahkan event listener ke tombol "Add to Cart"
+        document.getElementById('addToCartBtn').addEventListener('click', addToCart);
+    </script>
+
 
     <script>
         var MainImg = document.getElementById("MainImg");
